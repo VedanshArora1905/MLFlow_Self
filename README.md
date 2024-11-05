@@ -51,7 +51,7 @@ pipenv install boto3
 pipenv shell
 
 
-## Then set aws credentials 
+### Then set aws credentials 
 aws configure
 
 
