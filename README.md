@@ -30,6 +30,7 @@ set MLFLOW_TRACKING_PASSWORD=Vedansh@1122
 
 Run the following command on EC2 machine
 '''bash 
+
 sudo apt update
 
 sudo apt install python3-pip
@@ -56,7 +57,10 @@ aws configure
 
 
 #Finally
-mlflow server -h 0.0.0.0 --default-artifact-root s3://mlflow-test-23
+mlflow server -h 0.0.0.0 --default-artifact-root s3://mlflow-buck19
+
 #open Public IPv4 DNS to the port 5000
+
+
 #set uri in your local terminal and in your code
-export MLFLOW_TRACKING_URI-http://ec2-54-147-36-34. compute-1. amazonaws. com: 5000/
+export MLFLOW_TRACKING_URI-http://ec2-54-147-36-34. compute-1.amazonaws.com: 5000/
